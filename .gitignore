@@ -1,0 +1,34 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Generated data (index + processed chunks are regenerated on first run)
+data/indexes/*
+!data/indexes/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# User-uploaded books (keep folder, ignore content)
+data/books/*
+!data/books/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+data/*.db

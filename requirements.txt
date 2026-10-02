@@ -1,0 +1,36 @@
+# Code Bloom — Universal Knowledge Assistant
+# Tested on Windows 11 + Python 3.13.x, CPU only, 16GB RAM
+
+# --- UI ---
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+
+# --- LLM ---
+groq>=0.11.0
+python-dotenv>=1.0.1
+
+# --- PDF processing ---
+PyMuPDF>=1.24.0
+
+# --- Embeddings / NLP ---
+sentence-transformers>=3.0.1
+torch>=2.2.0
+
+# --- Vector search ---
+faiss-cpu>=1.8.0
+
+# --- Hybrid keyword search ---
+rank-bm25>=0.2.2
+
+# --- Language detection ---
+langdetect>=1.0.9
+
+# --- Tamil / Indic transliteration ---
+indic-transliteration>=2.3.60
+
+# --- Utilities ---
+numpy>=1.26.4
+pandas>=2.2.2
+requests>=2.32.0
+beautifulsoup4>=4.12.0
